@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #000;
+    color: white;
+    font-family: 'Mochiy Pop One', sans-serif;
+
+}
+
+img{
+    border-radius: 100%;
+    margin: 10px;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+}
+.btn-holder{
+    display: flex;
+}
+
+.docs-btn{
+    outline: none;
+    background-color: white;
+    color: black;
+    border: none;
+    font-size: 17px;
+    padding: .2rem .5rem;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
