@@ -82,3 +82,8 @@ const collegeData = await fetch('https://notbrowserapp-1-e9002758.deta.app/', {
 });
 
 ```
+
+### Contribution [❤️](https://emojipedia.org/red-heart)
+Contributions are most appreciated. 🤗
+Facing a problem 🐛? Feel free to raise an issue.
+Got an enhancement idea 💡? Submit a pull request or add it to the issue section.
