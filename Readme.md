@@ -7,6 +7,10 @@
 ## What is notBrowser ?
 notBrowser is a web application designed to address the CORS error problem by acting as an intermediary between users and external websites. 
 
+```
+url : https://notbrowserapp-1-e9002758.deta.app/
+```
+
 ### Usage
 
 ```js
@@ -20,7 +24,7 @@ const memes = response.json()
 const body = {url:"https://meme.breakingbranches.tech/api"}
 // refer below body format to see how to pass headers, method, body to your website
 
-const response = fetch('https://notBrowser.sankalpa.info.np',
+const response = fetch('https://notbrowserapp-1-e9002758.deta.app')',
 headers={'Content-Type':'application/json'},body=JSON.stringify(body))
 
 
